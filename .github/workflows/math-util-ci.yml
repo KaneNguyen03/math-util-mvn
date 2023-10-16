@@ -21,3 +21,15 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    
+    - name: Distribute jar-war file # Gửi file .jar .war đi đâu, CD nhảy vào ...
+      run: mkdir staging && cp target/*.jar staging # tạo thư mục staging chứa file .jar .war sau khi build      
+     
+    - name: Make hyperlink to jar-war file # Tạo hyperlink để download build 
+      uses: actions/upload-artifact@v1
+      with:
+        name: HAY-DOWNLOAD-EM-JAR-O-DAY # Bản build .JAR/.WAR ĐƯỢC NÉN Ở LINK KẾ BÊN 
+        path: staging
+
+# End of CI workflow file
+    
