@@ -34,7 +34,13 @@
             <version>1.10.0</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.10.0</version>
+            <scope>test</scope>
+            <type>jar</type>
+        </dependency>
     </dependencies>
     
     <!-- Các thư viện mình cần cho riêng Maven để Maven chạy ngầm 
