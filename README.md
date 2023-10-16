@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/XuanKha1011/math-util-mvn/actions/workflows/math-util-ci.yml/badge.svg)](https://github.com/XuanKha1011/math-util-mvn/actions/workflows/math-util-ci.yml)
+
 ###  Welcome to Math Utility Repository 
 
 #### You will find in this repo the following stuff:
